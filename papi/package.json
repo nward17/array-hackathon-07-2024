@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "build": "tsc",
-    "dev": "ts-node-dev ./src/server.ts",
-    "start": "node ./dist/server.js",
+    "dev": "ts-node-dev ./src/api.ts",
+    "start": "node ./dist/api.js",
     "prod": "npm run build && npm start"
   },
   "author": "nward17",
