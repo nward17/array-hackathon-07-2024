@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "github.papi.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"PortalManagerMixin",
+		"ArmorStandEntityMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
